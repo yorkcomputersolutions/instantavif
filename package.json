@@ -1,0 +1,27 @@
+{
+    "name": "instantwebp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@fastify/formbody": "^7.4.0",
+        "@fastify/multipart": "^8.3.0",
+        "@fastify/static": "^7.0.4",
+        "archiver": "*",
+        "express": "*",
+        "fastify": "^4.28.1",
+        "fastify-multer": "*",
+        "imagemin": "*",
+        "imagemin-svgo": "*",
+        "imagemin-avif": "*",
+        "path": "*",
+        "sharp": "*",
+        "url": "*"
+    }
+}
